@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     //Declaracion de variables
-    int valorA,valorB,resultado;
+    int valorA,valorB,resta,suma,producto;
 
     //Pido valores
     cout<<"Ingrese el valor A: "<<endl;
@@ -14,8 +14,12 @@ int main()
     cout<<"Ingrese el valor B: "<<endl;
     cin>>valorB;
 
-    resultado = valorA+valorB;
-    cout<<"El resultado es: "<<resultado<<endl;
+    suma = valorA+valorB;
+    resta = valorA-valorB;
+    producto = valorA*valorB;
+    cout<<"La suma es: "<<suma<<endl;
+    cout<<"La resta es: "<<resta<<endl;
+    cout<<"El producto es: "<<producto<<endl;
 
 
     return 0;
